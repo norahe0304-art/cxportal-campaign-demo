@@ -1,8 +1,8 @@
 <!doctype html>
 <!--
   [INPUT]: Loads the Vite demo entry and local static favicon.
-  [OUTPUT]: Provides the standalone Campaign Management demo document shell.
-  [POS]: Public HTML entry for local development and personal static hosting.
+  [OUTPUT]: Provides the multi-module demo document shell and default social-preview metadata.
+  [POS]: Public HTML entry whose production copies receive route-specific metadata during sanitization.
   [PROTOCOL]: 变更时更新此头部，然后检查 AGENTS.md
 -->
 <html lang="en">
@@ -12,11 +12,22 @@
     <link rel="icon" type="image/png" href="/cxportal-campaign-demo/favicon.png" />
     <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff" />
     <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0e1b2a" />
-    <meta
-      name="description"
-      content="Interactive Campaign Management walkthrough for a DC 311 resident SMS campaign."
-    />
-    <title>CxPortal Campaign Management Demo</title>
+    <!-- DEMO_METADATA_START -->
+    <title>CxPortal Campaign Management for DC 311 | Interactive Demo</title>
+    <meta name="description" content="Create a bilingual SMS notification campaign for DC 311 residents with unresolved missed-trash service requests." />
+    <link rel="canonical" href="https://norahe0304-art.github.io/cxportal-campaign-demo/demo/campaign-management-dc311/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="CxPortal" />
+    <meta property="og:title" content="CxPortal Campaign Management for DC 311 | Interactive Demo" />
+    <meta property="og:description" content="Create a bilingual SMS notification campaign for DC 311 residents with unresolved missed-trash service requests." />
+    <meta property="og:url" content="https://norahe0304-art.github.io/cxportal-campaign-demo/demo/campaign-management-dc311/" />
+    <meta property="og:image" content="https://norahe0304-art.github.io/cxportal-campaign-demo/campaign-management-intro.png" />
+    <meta property="og:image:alt" content="CxPortal Campaign Management interactive demo for DC 311" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="CxPortal Campaign Management for DC 311 | Interactive Demo" />
+    <meta name="twitter:description" content="Create a bilingual SMS notification campaign for DC 311 residents with unresolved missed-trash service requests." />
+    <meta name="twitter:image" content="https://norahe0304-art.github.io/cxportal-campaign-demo/campaign-management-intro.png" />
+    <!-- DEMO_METADATA_END -->
     <script>
       const global = window.global || window;
     </script>

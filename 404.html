@@ -1,8 +1,8 @@
 <!doctype html>
 <!--
   [INPUT]: Loads the Vite demo entry and local static favicon.
-  [OUTPUT]: Provides the standalone Campaign Management demo document shell.
-  [POS]: Public HTML entry for local development and personal static hosting.
+  [OUTPUT]: Provides the multi-module demo document shell and default social-preview metadata.
+  [POS]: Public HTML entry whose production copies receive route-specific metadata during sanitization.
   [PROTOCOL]: 变更时更新此头部，然后检查 AGENTS.md
 -->
 <html lang="en">
@@ -12,11 +12,37 @@
     <link rel="icon" type="image/png" href="/cxportal-campaign-demo/favicon.png" />
     <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff" />
     <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0e1b2a" />
+    <!-- DEMO_METADATA_START -->
+    <title>CxPortal Interactive Product Demos</title>
     <meta
       name="description"
-      content="Interactive Campaign Management walkthrough for a DC 311 resident SMS campaign."
+      content="Explore interactive CxPortal product demos for campaign operations, routing configuration, knowledge management, contact analysis, and global resiliency."
     />
-    <title>CxPortal Campaign Management Demo</title>
+    <link rel="canonical" href="https://norahe0304-art.github.io/cxportal-campaign-demo/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="CxPortal" />
+    <meta property="og:title" content="CxPortal Interactive Product Demos" />
+    <meta
+      property="og:description"
+      content="Explore interactive CxPortal product demos for campaign operations, routing configuration, knowledge management, contact analysis, and global resiliency."
+    />
+    <meta property="og:url" content="https://norahe0304-art.github.io/cxportal-campaign-demo/" />
+    <meta
+      property="og:image"
+      content="https://norahe0304-art.github.io/cxportal-campaign-demo/campaign-management-intro.png"
+    />
+    <meta property="og:image:alt" content="CxPortal interactive product demo" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="CxPortal Interactive Product Demos" />
+    <meta
+      name="twitter:description"
+      content="Explore interactive CxPortal product demos for campaign operations, routing configuration, knowledge management, contact analysis, and global resiliency."
+    />
+    <meta
+      name="twitter:image"
+      content="https://norahe0304-art.github.io/cxportal-campaign-demo/campaign-management-intro.png"
+    />
+    <!-- DEMO_METADATA_END -->
     <script>
       const global = window.global || window;
     </script>
