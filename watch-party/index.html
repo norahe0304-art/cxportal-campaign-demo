@@ -1,0 +1,146 @@
+<!doctype html>
+<!--
+  [INPUT]: Uses local Mona Sans fonts, three poster frames, and six H.264/AAC watch-party masters.
+  [OUTPUT]: Provides a responsive cinematic player, ordered playlist, module cards, and automatic progression.
+  [POS]: watch-party route of the CxPortal demo library, linked from the compiled portal home.
+  [PROTOCOL]: 变更时更新此头部，然后检查 AGENTS.md
+-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#070b16" />
+    <title>CxPortal Watch Party</title>
+    <meta
+      name="description"
+      content="Six curated CxPortal films across Campaign, Knowledge, and Access Management."
+    />
+    <link rel="icon" type="image/png" href="../favicon.png" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="shell topbar">
+      <div class="brand">
+        <img src="../cxportal-logo-light.svg" alt="CxPortal" />
+        <span class="brand-mark">Watch Party / Curated 03</span>
+      </div>
+      <a class="back-link" href="../">Interactive demo library</a>
+    </header>
+
+    <main>
+      <section class="shell hero">
+        <div class="reveal">
+          <div class="eyebrow">Today’s screening</div>
+          <h1>See the work.<br /><em>Then see how.</em></h1>
+        </div>
+        <div class="hero-meta reveal">
+          <p>
+            Three CxPortal modules, each told twice: the business outcome first,
+            followed by the practical training walkthrough.
+          </p>
+          <div class="facts" aria-label="Watch party facts">
+            <div class="fact"><strong>06</strong><span>Films</span></div>
+            <div class="fact"><strong>21:06</strong><span>Run time</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="shell stage-wrap reveal" id="screening" aria-label="Watch party player">
+        <div class="player-column">
+          <div class="video-frame">
+            <video
+              id="player"
+              controls
+              playsinline
+              preload="metadata"
+              poster="posters/campaign.jpg"
+            >
+              <source src="videos/campaign-business.mp4" type="video/mp4" />
+              Your browser does not support HTML video.
+            </video>
+          </div>
+          <div class="now-playing">
+            <div class="now-copy" aria-live="polite">
+              <p class="now-kicker" id="nowKicker">Campaign Management · Business scenario</p>
+              <p class="now-title" id="nowTitle">Campaign Management: Business Overview</p>
+            </div>
+            <div class="stage-actions">
+              <button class="icon-button" id="previousButton" type="button" aria-label="Previous film">←</button>
+              <button class="icon-button" id="fullscreenButton" type="button" aria-label="Enter full screen">↗</button>
+              <button class="icon-button" id="nextButton" type="button" aria-label="Next film">→</button>
+            </div>
+          </div>
+        </div>
+
+        <aside class="playlist" aria-label="Screening order">
+          <div class="playlist-head">
+            <strong>Screening order</strong>
+            <label class="auto-toggle">
+              <input id="autoAdvance" type="checkbox" checked />
+              Auto-advance
+            </label>
+          </div>
+          <div class="playlist-items" id="playlist"></div>
+        </aside>
+      </section>
+
+      <section class="shell modules">
+        <div class="section-head">
+          <h2>Three modules.<br />Two perspectives.</h2>
+          <p>
+            Use the business film to establish the “why,” then open the paired
+            training film when the room wants the operational detail.
+          </p>
+        </div>
+
+        <div class="module-grid">
+          <article class="module-card">
+            <img class="module-art" src="posters/campaign.jpg" alt="" />
+            <div class="module-content">
+              <span class="module-index">01 / Campaigns</span>
+              <h3>Campaign Management</h3>
+              <p>Build, govern, and monitor outbound engagement from one operating surface.</p>
+              <div class="module-actions">
+                <button class="play-choice" type="button" data-play="0">Business · 01:37</button>
+                <button class="play-choice" type="button" data-play="1">Training · 04:31</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="module-card">
+            <img class="module-art" src="posters/knowledge.jpg" alt="" />
+            <div class="module-content">
+              <span class="module-index">02 / Knowledge</span>
+              <h3>Knowledge Management</h3>
+              <p>Move from article discovery to governed publishing without breaking the agent flow.</p>
+              <div class="module-actions">
+                <button class="play-choice" type="button" data-play="2">Business · 01:56</button>
+                <button class="play-choice" type="button" data-play="3">Training · 05:38</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="module-card">
+            <img class="module-art" src="posters/access.jpg" alt="" />
+            <div class="module-content">
+              <span class="module-index">03 / Access</span>
+              <h3>Access Management</h3>
+              <p>Control roles and instance permissions with a clear, auditable administration model.</p>
+              <div class="module-actions">
+                <button class="play-choice" type="button" data-play="4">Business · 02:09</button>
+                <button class="play-choice" type="button" data-play="5">Training · 05:15</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="shell footer">
+      <span>Prepared for internal product storytelling.</span>
+      <span>CxPortal · Pronetx</span>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>

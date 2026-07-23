@@ -1,8 +1,8 @@
 <!doctype html>
 <!--
-  [INPUT]: Loads the Vite demo entry and local static favicon.
-  [OUTPUT]: Provides the multi-module demo document shell and default social-preview metadata.
-  [POS]: Public HTML entry whose production copies receive route-specific metadata during sanitization.
+  [INPUT]: Loads the Vite demo entry, local static favicon, and the watch-party route.
+  [OUTPUT]: Provides the multi-module demo document shell, watch-party launch control, and social-preview metadata.
+  [POS]: Portal HTML entry that links the compiled interactive library to the curated video experience.
   [PROTOCOL]: 变更时更新此头部，然后检查 AGENTS.md
 -->
 <html lang="en">
@@ -48,8 +48,41 @@
     </script>
     <script type="module" crossorigin src="/cxportal-campaign-demo/assets/index-1oxy_gze.js"></script>
     <link rel="stylesheet" crossorigin href="/cxportal-campaign-demo/assets/index-DgInvEGx.css">
+    <style>
+      .watch-party-launch {
+        position: fixed;
+        right: 22px;
+        bottom: 22px;
+        z-index: 2147483647;
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        min-height: 46px;
+        padding: 0 18px;
+        border: 1px solid rgba(255, 255, 255, 0.28);
+        border-radius: 999px;
+        color: #07100c;
+        background: #d8ff85;
+        box-shadow: 0 14px 46px rgba(0, 0, 0, 0.28);
+        font: 600 12px/1 "Mona Sans", sans-serif;
+        letter-spacing: 0.04em;
+        text-decoration: none;
+        transition: transform 160ms ease, box-shadow 160ms ease;
+      }
+
+      .watch-party-launch::before {
+        content: "▶";
+        font-size: 10px;
+      }
+
+      .watch-party-launch:hover {
+        box-shadow: 0 18px 52px rgba(0, 0, 0, 0.36);
+        transform: translateY(-2px);
+      }
+    </style>
   </head>
   <body>
     <div id="root"></div>
+    <a class="watch-party-launch" href="./watch-party/">Watch party · 6 films</a>
   </body>
 </html>
