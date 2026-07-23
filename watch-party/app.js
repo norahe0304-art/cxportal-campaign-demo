@@ -11,7 +11,7 @@ const films = [
     type: "Business scenario",
     title: "Campaign Management: Business Overview",
     duration: "01:37",
-    src: "videos/campaign-business.mp4",
+    src: "videos/campaign-business.mp4?v=20260723-logo-fix",
     poster: "posters/campaign.jpg",
   },
   {
@@ -19,7 +19,7 @@ const films = [
     type: "Training guide",
     title: "Campaign Management: Step-by-Step Guide",
     duration: "04:31",
-    src: "videos/campaign-training.mp4",
+    src: "videos/campaign-training.mp4?v=20260723-logo-fix",
     poster: "posters/campaign.jpg",
   },
   {
@@ -27,7 +27,7 @@ const films = [
     type: "Business scenario",
     title: "Knowledge Management: Business Overview",
     duration: "01:56",
-    src: "videos/knowledge-business.mp4",
+    src: "videos/knowledge-business.mp4?v=20260723-logo-fix",
     poster: "posters/knowledge.jpg",
   },
   {
@@ -35,7 +35,7 @@ const films = [
     type: "Training guide",
     title: "Knowledge Management: Step-by-Step Guide",
     duration: "05:38",
-    src: "videos/knowledge-training.mp4",
+    src: "videos/knowledge-training.mp4?v=20260723-logo-fix",
     poster: "posters/knowledge.jpg",
   },
   {
@@ -43,7 +43,7 @@ const films = [
     type: "Business scenario",
     title: "Access Management: Business Overview",
     duration: "02:09",
-    src: "videos/access-business.mp4",
+    src: "videos/access-business.mp4?v=20260723-logo-fix",
     poster: "posters/access.jpg",
   },
   {
@@ -51,7 +51,7 @@ const films = [
     type: "Training guide",
     title: "Access Management: Step-by-Step Guide",
     duration: "05:15",
-    src: "videos/access-training.mp4",
+    src: "videos/access-training.mp4?v=20260723-logo-fix",
     poster: "posters/access.jpg",
   },
 ];
@@ -131,4 +131,3 @@ document.addEventListener("keydown", (event) => {
 });
 
 renderPlaylist();
-

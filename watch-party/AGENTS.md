@@ -17,5 +17,7 @@ Change log:
 - 2026-07-23: Created the curated watch-party module and separated markup, presentation, and behavior.
 - 2026-07-23: Replaced legacy corporate attribution with Caylent while preserving CxPortal product naming.
 - 2026-07-23: Replaced all six media files with accepted Caylent masters and rebuilt the three posters from those masters.
+- 2026-07-23: Installed the logo-corrected Campaign, Knowledge, and Access masters after frame-level intro/outro review.
+- 2026-07-23: Versioned the controller and all six media URLs so browsers cannot reuse pre-correction code or video caches.
 
 [PROTOCOL]: 变更时更新此头部，然后检查 AGENTS.md
