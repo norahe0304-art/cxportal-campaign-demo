@@ -24,5 +24,6 @@ Development rule: company product source remains read-only; this repository cont
 Change log: 2026-07-23 - Added the three-module watch-party video library.
 Change log: 2026-07-23 - Aligned the private library shell and six curated films with Caylent corporate branding while preserving CxPortal/CxCentral product naming.
 Change log: 2026-07-23 - Removed residual Pronetx corporate marks from four watch-party masters and invalidated stale browser media caches.
+Change log: 2026-07-23 - Removed the rejected laptop-hero scene from all three private-portal business films.
 
 [PROTOCOL]: 变更时更新此头部，然后检查 AGENTS.md
