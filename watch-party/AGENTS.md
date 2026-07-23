@@ -19,5 +19,6 @@ Change log:
 - 2026-07-23: Replaced all six media files with accepted Caylent masters and rebuilt the three posters from those masters.
 - 2026-07-23: Installed the logo-corrected Campaign, Knowledge, and Access masters after frame-level intro/outro review.
 - 2026-07-23: Versioned the controller and all six media URLs so browsers cannot reuse pre-correction code or video caches.
+- 2026-07-23: Removed the laptop-hero clip from all three curated business films, rebuilt their posters, updated durations, and invalidated prior media caches.
 
 [PROTOCOL]: 变更时更新此头部，然后检查 AGENTS.md
