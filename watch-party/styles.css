@@ -1,5 +1,5 @@
 /**
- * [INPUT]: Uses local Mona Sans font assets and CxPortal brand tokens.
+ * [INPUT]: Uses local Mona Sans fonts, the canonical Caylent wordmark, and CxPortal presentation tokens.
  * [OUTPUT]: Provides the responsive cinematic watch-party presentation layer.
  * [POS]: watch-party visual system, consumed only by index.html.
  * [PROTOCOL]: 变更时更新此头部，然后检查 AGENTS.md
@@ -116,7 +116,7 @@ button {
 }
 
 .brand img {
-  width: 132px;
+  width: 144px;
   max-height: 30px;
   object-fit: contain;
 }
@@ -737,4 +737,3 @@ video {
     transition-duration: 1ms !important;
   }
 }
-
