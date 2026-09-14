@@ -11,3 +11,5 @@ This personal repository contains sanitized production artifacts only.
 Knowledge Management uses the September 14 Caylent reskin. Campaign routes retain their separate accepted application. Flow Analyzer retains its existing product UI with reviewed guide headings and restart-only completion. Other routes retain the previously published general application. Existing asset bytes are unchanged. Cross-boundary navigation reloads the document so the appropriate application and stylesheet are selected. Full copied source, private media, account data and credentials are excluded.
 
 [PROTOCOL]: 变更时更新此头部，然后检查 AGENTS.md
+
+- 2026-09-14: KM guide positioning protects complete product dialogs at every step, including Add New Article selectors and Continue. Short viewports reserve a separate guide region. FA, Campaign and general application entries remain unchanged.
