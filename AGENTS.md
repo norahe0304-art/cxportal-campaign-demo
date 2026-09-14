@@ -15,3 +15,5 @@ Knowledge Management uses the September 14 Caylent reskin. Campaign routes retai
 - 2026-09-14: KM guide positioning protects complete product dialogs at every step, including Add New Article selectors and Continue. Short viewports reserve a separate guide region. FA, Campaign and general application entries remain unchanged.
 
 - 2026-09-14: KM guided input prevents unintended picker dismissal, supports direct highlighted-target activation, clears missing targets, and reconstructs the picker on Back. Contours respect table clipping; short-window lists remain scrollable. FA, Campaign and general entry mappings are byte-identical to the previous release.
+
+- KM scroll recovery: re-reveal offscreen targets after scrolling and resize. All 30 desktop/mobile steps verified with deliberate scrolling; FA, Campaign and legacy dispatcher mappings unchanged.
