@@ -1,0 +1,1 @@
+const n="/permissions";function _(r,{hasAccessManagementAdmin:t}){let i=r;return t||(i=i.map(s=>s.moduleUrlPart==="dfc"?{...s,modulePermissions:s.modulePermissions.filter(e=>e.urlSignature!==n)}:s)),i}export{_ as a};

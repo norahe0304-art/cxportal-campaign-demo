@@ -1,19 +1,14 @@
 # CxPortal public demo artifact
 
-This personal repository contains sanitized production artifacts only.
+Sanitized production artifacts only. GitHub Pages serves main at the repository root.
 
-- index.html and demo/*/index.html: Existing route metadata with a shared module-entry loader.
-- 404.html: Deep-link fallback; selects the correct application from the requested pathname.
-- assets/: Immutable application bundles, fonts and styles; the hashed module-entry loader selects the reviewed KM or Flow Analyzer application, the accepted Campaign application, or the legacy general application.
-- Root image assets: Existing module artwork, preserved by the KM publication.
-- .nojekyll: Enables static GitHub Pages delivery.
+- index.html: Branded searchable Interactive Demo Library.
+- demo/: Feature metadata and direct-entry documents; all use the common dispatcher.
+- 404.html: Deep-link fallback through the same dispatcher.
+- assets/: Immutable compiled bundles and styles; module-entry selects the reviewed application and reloads across application boundaries.
+- fonts/, images/, root artwork: Public static assets; existing image bytes preserved.
+- .nojekyll: Enables direct static GitHub Pages delivery.
 
-Knowledge Management uses the September 14 Caylent reskin. Campaign routes retain their separate accepted application. Flow Analyzer retains its existing product UI with reviewed guide headings and restart-only completion. Other routes retain the previously published general application. Existing asset bytes are unchanged. Cross-boundary navigation reloads the document so the appropriate application and stylesheet are selected. Full copied source, private media, account data and credentials are excluded.
+2026-09-29: Refreshed library plus Campaign Email, Access, User, Bulk Agent, Cases, Change Management, DFC, Flow Analyzer, PBR, and Q in Connect. Preserved the accepted September 14 Knowledge Management application, Voice/SMS application, and existing ACGR, WFM, and Flow Tester application. Retained previous immutable artifacts for existing cached clients. All entry documents enforce same-origin connections. Full source, private videos, credentials, and local review collateral are excluded.
 
 [PROTOCOL]: 变更时更新此头部，然后检查 AGENTS.md
-
-- 2026-09-14: KM guide positioning protects complete product dialogs at every step, including Add New Article selectors and Continue. Short viewports reserve a separate guide region. FA, Campaign and general application entries remain unchanged.
-
-- 2026-09-14: KM guided input prevents unintended picker dismissal, supports direct highlighted-target activation, clears missing targets, and reconstructs the picker on Back. Contours respect table clipping; short-window lists remain scrollable. FA, Campaign and general entry mappings are byte-identical to the previous release.
-
-- KM scroll recovery: re-reveal offscreen targets after scrolling and resize. All 30 desktop/mobile steps verified with deliberate scrolling; FA, Campaign and legacy dispatcher mappings unchanged.
