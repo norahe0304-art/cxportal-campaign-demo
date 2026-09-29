@@ -1,0 +1,62 @@
+[
+  {
+    "slug": "workforce-management",
+    "path": "covers/operations/workforce-management.png"
+  },
+  {
+    "slug": "campaign-management",
+    "path": "covers/operations/campaign-management.png"
+  },
+  {
+    "slug": "campaign-management-voice-sms",
+    "path": "covers/operations/campaign-management-voice-sms.png"
+  },
+  {
+    "slug": "cases",
+    "path": "covers/operations/cases.png"
+  },
+  {
+    "slug": "global-resiliency",
+    "path": "covers/operations/global-resiliency.png"
+  },
+  {
+    "slug": "access-management",
+    "path": "covers/governance/access-management.png"
+  },
+  {
+    "slug": "user-management",
+    "path": "covers/governance/user-management.png"
+  },
+  {
+    "slug": "bulk-agent-management",
+    "path": "covers/governance/bulk-agent-management.png"
+  },
+  {
+    "slug": "change-management",
+    "path": "covers/governance/change-management.png"
+  },
+  {
+    "slug": "knowledge-management",
+    "path": "covers/governance/knowledge-management.png"
+  },
+  {
+    "slug": "dfc",
+    "path": "covers/flows/dfc.png"
+  },
+  {
+    "slug": "q-in-connect",
+    "path": "covers/flows/q-in-connect.png"
+  },
+  {
+    "slug": "proficiency-based-routing",
+    "path": "covers/flows/proficiency-based-routing.png"
+  },
+  {
+    "slug": "flow-analyzer",
+    "path": "covers/flows/flow-analyzer.png"
+  },
+  {
+    "slug": "flow-tester",
+    "path": "covers/flows/flow-tester.png"
+  }
+]
