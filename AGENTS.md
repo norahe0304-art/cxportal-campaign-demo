@@ -1,16 +1,16 @@
 # CxPortal public demo artifact
 
-Sanitized production artifacts only. GitHub Pages serves main at the repository root.
+Sanitized React production artifacts. GitHub Pages serves main at the repository root.
 
-- index.html: Branded searchable Interactive Demo Library.
-- demo/: Feature metadata and direct-entry documents; all use the common dispatcher.
-- 404.html: Deep-link fallback through the same dispatcher.
-- assets/: Immutable compiled bundles and styles; module-entry selects the reviewed application and reloads across application boundaries.
-- fonts/, images/, root artwork: Public static assets; approved cover replacements; other image bytes preserved.
-- .nojekyll: Enables direct static GitHub Pages delivery.
+- index.html: Searchable demo library, loading the same current app as every module.
+- demo/: Fifteen module metadata and direct-entry documents.
+- 404.html: Deep-route fallback using the same current app.
+- assets/: Immutable compiled releases and a content-hashed common loader.
+- assets/current-ui-20260929/: Current 5180-aligned build and scoped demo adapter fixes.
+- covers/: Caylent Insights-inspired black-green covers, grouped into operations/governance/flows.
+- fonts/, images/, root artwork: Public static assets.
+- .nojekyll: Enables GitHub Pages static delivery.
 
-2026-09-29: Refreshed library plus Campaign Email, Access, User, Bulk Agent, Cases, Change Management, DFC, Flow Analyzer, PBR, and Q in Connect. Preserved the accepted September 14 Knowledge Management application, Voice/SMS application, and existing ACGR, WFM, and Flow Tester application. Retained previous immutable artifacts for existing cached clients. All entry documents enforce same-origin connections. Full source, private videos, credentials, and local review collateral are excluded.
+2026-09-29: All fifteen module routes use one current app. The previous dispatcher selected old applications for ACGR, KM, WFM, Flow Tester, and Voice/SMS; that selection is removed. Retain old immutable assets for cached clients. Real current product components are preserved; demo adapters repair Voice account context, WFM guide targets, and Flow Tester route continuity. No private videos, credentials, source repository, or review collateral is published.
 
 [PROTOCOL]: 变更时更新此头部，然后检查 AGENTS.md
-
-2026-09-29: Updated fifteen Library, welcome and social-preview covers to the Caylent Insights-inspired editorial black-green system. assets/editorial-20260929 contains the isolated sanitized build, preserving earlier immutable dependencies. Five accepted applications keep their JS and receive replacement welcome PNGs. covers/{operations,governance,flows} owns current cover assets.
