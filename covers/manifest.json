@@ -1,62 +1,62 @@
 [
   {
     "slug": "workforce-management",
-    "path": "covers/operations/workforce-management.png"
+    "path": "covers/operations/workforce-management-figma.png"
   },
   {
     "slug": "campaign-management",
-    "path": "covers/operations/campaign-management.png"
+    "path": "covers/operations/campaign-management-figma.png"
   },
   {
     "slug": "campaign-management-voice-sms",
-    "path": "covers/operations/campaign-management-voice-sms.png"
+    "path": "covers/operations/campaign-management-voice-sms-figma.png"
   },
   {
     "slug": "cases",
-    "path": "covers/operations/cases.png"
+    "path": "covers/operations/cases-figma.png"
   },
   {
     "slug": "global-resiliency",
-    "path": "covers/operations/global-resiliency.png"
+    "path": "covers/operations/global-resiliency-figma.png"
   },
   {
     "slug": "access-management",
-    "path": "covers/governance/access-management.png"
+    "path": "covers/governance/access-management-figma.png"
   },
   {
     "slug": "user-management",
-    "path": "covers/governance/user-management.png"
+    "path": "covers/governance/user-management-figma.png"
   },
   {
     "slug": "bulk-agent-management",
-    "path": "covers/governance/bulk-agent-management.png"
+    "path": "covers/governance/bulk-agent-management-figma.png"
   },
   {
     "slug": "change-management",
-    "path": "covers/governance/change-management.png"
+    "path": "covers/governance/change-management-figma.png"
   },
   {
     "slug": "knowledge-management",
-    "path": "covers/governance/knowledge-management.png"
+    "path": "covers/governance/knowledge-management-figma.png"
   },
   {
     "slug": "dfc",
-    "path": "covers/flows/dfc.png"
+    "path": "covers/flows/dfc-figma.png"
   },
   {
     "slug": "q-in-connect",
-    "path": "covers/flows/q-in-connect.png"
+    "path": "covers/flows/q-in-connect-figma.png"
   },
   {
     "slug": "proficiency-based-routing",
-    "path": "covers/flows/proficiency-based-routing.png"
+    "path": "covers/flows/proficiency-based-routing-figma.png"
   },
   {
     "slug": "flow-analyzer",
-    "path": "covers/flows/flow-analyzer.png"
+    "path": "covers/flows/flow-analyzer-figma.png"
   },
   {
     "slug": "flow-tester",
-    "path": "covers/flows/flow-tester.png"
+    "path": "covers/flows/flow-tester-figma.png"
   }
 ]
