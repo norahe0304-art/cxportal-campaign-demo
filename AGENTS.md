@@ -7,12 +7,14 @@ Sanitized React production artifacts. GitHub Pages serves main at the repository
 - 404.html: Deep-route fallback using the same current app.
 - assets/: Immutable compiled releases and a content-hashed common loader.
 - assets/index-70c5d8d6c2.js: Prior shared loader retained for cached clients.
-- assets/index-10bea78658.js: Current shared loader with supplied Figma wordmark references.
+- assets/index-10bea78658.js: Previous shared loader retained for cached clients.
+- assets/index-4c3690da34.js: Current sanitized shared app with Figma Hero component, standard Start Button and recording guide suppression.
 - cxportal-logo-figma.svg / cxportal-logo-light-figma.svg: Versioned exact Figma CxPORTAL vector and dark-surface variant.
 - covers/*/*-figma.png: Fifteen current cover images rebuilt from the Figma vector; old names remain for caches.
 - assets/current-ui-complete-20260929/: Current 5180-aligned build with ACGR active-query reset repair.
 - assets/current-ui-20260929/: Prior immutable release preserved for cached clients.
 - covers/: Caylent Insights-inspired black-green covers, grouped into operations/governance/flows.
+- hero/: Authentic Figma decorative background with exact crop and layered shading; live text and module icons render in the compiled app.
 - fonts/, images/, root artwork: Public static assets.
 - .nojekyll: Enables GitHub Pages static delivery.
 
@@ -23,3 +25,5 @@ Sanitized React production artifacts. GitHub Pages serves main at the repository
 2026-10-01: Switched the root, 404 fallback, and fifteen direct entries to the new shared loader and versioned Figma-wordmark cover URLs. Added the two versioned SVG logos; retained previous immutable assets and excluded videos.
 
 [PROTOCOL]: 变更时更新此头部，然后检查 AGENTS.md
+
+2026-10-08: All fifteen opening Heroes share the original Figma background, exact radial shading, thin white 66px module icons with 18px glass padding and a 0.5px green SVG stroke, and white 48px Roboto Thin module labels. Start uses the existing standard Button; approved flow and body copy are unchanged. Both Campaign recording profiles suppress guides. Desktop/mobile default-mode, recording and production checks passed; no private video or source code added.
