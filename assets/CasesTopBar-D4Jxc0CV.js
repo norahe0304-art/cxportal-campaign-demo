@@ -1,0 +1,1 @@
+import{w as t,cb as e,cc as o,ce as s}from"./index-a52f4193f6.js";function p(){const a=[{icon:t.jsx(s,{weight:"regular",className:"h-4 w-4"}),ariaLabel:"Support Request",tooltipContent:"Support Request",wrapper:o}];return t.jsx(e,{actionButtons:a})}export{p as default};

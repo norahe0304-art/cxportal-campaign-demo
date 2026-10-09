@@ -8,7 +8,8 @@ Sanitized React production artifacts. GitHub Pages serves main at the repository
 - assets/: Immutable compiled releases and a content-hashed common loader.
 - assets/index-70c5d8d6c2.js: Prior shared loader retained for cached clients.
 - assets/index-10bea78658.js: Previous shared loader retained for cached clients.
-- assets/index-4c3690da34.js: Current sanitized shared app with Figma Hero component, standard Start Button and recording guide suppression.
+- assets/index-4c3690da34.js: Previous shared loader retained for cached clients.
+- assets/index-a52f4193f6.js: Current sanitized shared app with Start-only welcome, no stepper exit, native new-tab library entries, Figma Hero and recording guide suppression.
 - cxportal-logo-figma.svg / cxportal-logo-light-figma.svg: Versioned exact Figma CxPORTAL vector and dark-surface variant.
 - covers/*/*-figma.png: Fifteen current cover images rebuilt from the Figma vector; old names remain for caches.
 - assets/current-ui-complete-20260929/: Current 5180-aligned build with ACGR active-query reset repair.
@@ -27,3 +28,5 @@ Sanitized React production artifacts. GitHub Pages serves main at the repository
 [PROTOCOL]: 变更时更新此头部，然后检查 AGENTS.md
 
 2026-10-08: All fifteen opening Heroes share the original Figma background, exact radial shading, thin white 66px module icons with 18px glass padding and a 0.5px green SVG stroke, and white 48px Roboto Thin module labels. Start uses the existing standard Button; approved flow and body copy are unchanged. Both Campaign recording profiles suppress guides. Desktop/mobile default-mode, recording and production checks passed; no private video or source code added.
+
+2026-10-09: Fifteen listing cards open interactive demos in native new tabs with noopener noreferrer. Welcome footers show only the right-aligned standard Start Button; guide progress omits the close control. Working Back/Restart actions and completion library return remain available.
